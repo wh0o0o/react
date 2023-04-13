@@ -1,0 +1,29 @@
+header {
+    top: 0;
+    width: 1300px;
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navlink {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navlink:hover {
+    color: #574738;
+}
+
+.ikon {
+    cursor: pointer;
+}
+
+.logo {
+    font-weight: 900;
+}
